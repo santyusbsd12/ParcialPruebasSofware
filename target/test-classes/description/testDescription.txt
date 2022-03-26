@@ -1,0 +1,43 @@
+1) Enunciado prueba numero uno {
+
+GIVEN Dada una hora entre las 00:00 (0) y las 06:00 (6)
+WHEN  Cuando se llame al metodo getTimeOfDay()
+THEN Entonces el resultado esperado será "Night"
+
+}
+
+
+2) Enunciado prueba numero dos {
+
+GIVEN Dada una hora entre las 06:00 (6) y las 12:00 (12)
+WHEN  Cuando se llame al metodo getTimeOfDay()
+THEN Entonces el resultado esperado será "Morning"
+
+}
+
+
+3) Enunciado prueba numero tres {
+
+GIVEN Dada una hora entre las 12:00 (12) y las 18:00 (18)
+WHEN  Cuando se llame al metodo getTimeOfDay()
+THEN Entonces el resultado esperado será "Afternoon"
+
+}
+
+
+4) Enunciado prueba numero cuatro {
+
+GIVEN Dada una hora superior las 18:00 (18)
+WHEN  Cuando se llame al metodo getTimeOfDay()
+THEN Entonces el resultado esperado será "Evening"
+
+}
+
+
+5) Enunciado prueba numero cinco {
+
+GIVEN Dada una hora que no exista en el formato de 24 horas
+WHEN  Cuando se llame al metodo getTimeOfDay()
+THEN Entonces el resultado esperado será "Invalid hour"
+
+}
